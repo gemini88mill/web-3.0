@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+    <meta charset="UTF-8">
+    <title>RaphaelMiller.net</title>
+
+    <!--Dependencies-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Asap|Gudea|Nunito|Orbitron" rel="stylesheet">
+
+    <script type="text/javascript" src="js/animate.js"></script>
+
+
+
+
+</head>
+<body class="img-bg" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<script type="text/javascript">
+    window.onload =  function () {
+        $("#accordion").hide();
+    }
+</script>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top" id="navbar-style">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Raphael Miller</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#collapseOne" onclick="hider('jumbo-target')" data-parent="#accordion" data-toggle="collapse">ABOUT</a></li>
+                    <li><a href="#collapseThree" onclick="hider('jumbo-target')" data-parent="#accordion" data-toggle="collapse">PORTFOLIO</a></li>
+                    <li><a href="#collapseFour" onclick="hider('jumbo-target')" data-parent="#accordion" data-toggle="collapse">RESUME</a></li>
+                    <li><a href="#collapseFive" onclick="hider('jumbo-target')" data-parent="#accordion" data-toggle="collapse">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Main Banner-->
+    <div id="jumbo-target" data-toggle="collapse in" class="jumbotron">
+        <div class="align">
+            <h1>Web Dev</h1>
+        </div>
+    </div>
+
+<div class = "panel panel-group" id = "accordion">
+
+    <div class="panel">
+
+        <!--About-->
+        <div class="heading-style panel-heading">
+            <h2 class="header-style panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">ABOUT</a>
+            </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse">
+            <div class="para-formatting panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="para-formatting">
+                            <br><br>
+                            Welcome to my web page. My name is Raphael Miller. Currently I am a student at the University
+                            of Central Florida. As with any aspiring student I am looking for internships and experience
+                            in my field, This site is to serve as a landing for all prospective employers or people who
+                            are interested in my projects and want to collaborate. <br><br>
+
+                            I have been working with code and development projects since high school and have experience
+                            with a variety of different programming languages and technologies. Ranging from low-level
+                            MIPS and assembly languages to JavaScript and its related frameworks and technologies. <br><br>
+
+                            Along with the knowledge of languages I can work with I also have dabbled in more abstract
+                            concepts like Big Data and A.I. and so far is my main challenge. If you wish to contact I am
+                            available in the contacts section in the links.
+                        </p>
+                    </div>
+                    <div class="col-sm-8">
+                        <!--Pictures go here-->
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8">
+                                <img src="css/assets/keyboardduck.jpg" class="img-rounded img-responsive">
+                            </div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--About-->
+
+
+        <!--Portfolio-->
+        <div class="panel-heading">
+            <h2 class="header-style panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">PORTFOLIO</a>
+            </h2>
+        </div>
+
+        <div id="collapseThree" class="collapse">
+            <div class="para-formatting panel-body">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="css/assets/univentshoot.png" class="img-responsive">
+
+                        <p class="para-formatting">
+                            <br><br>Univent Project<br><br>
+
+                            Project for Database Systems:<br>
+                            Our team was tasked with forming an event calendar for an array of universities. Each
+                            University had events, organizations and users that were placed into a SQL database, then
+                            a user interface would be used to create a template for users to interact with the data.<br><br>
+
+                            Users could sign up for events and organizations, leave comments on events, and request admins
+                            for them to maintain their own organizations and create their own events. <br><br>
+
+                            Languages used: mySQL, PHP, Javascript<br>
+                            Frameworks used: Bootstrap 3.0.<br>
+                            Software used: PHPStorm, DataGrip, mySQL CLI<br><br>
+                        </p>
+
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <a href="https://github.com/jorgebaralt/Event-Calendar" class="hover-control para-formatting">
+                                    <img src="css/assets/icons/downloadimg.png" class="img-responsive hover-control">
+                                </a>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="para-formatting">Link to Github</p>
+                            </div>
+                            <div class="col-sm-8"></div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-sm-4">
+                        <img src="css/assets/flights_screenshots.png" class="img-responsive">
+
+                        <p class="para-formatting">
+                            <br><br>Flights.jar<br><br>
+
+                            A Flight program using google's QPX Express API<br>
+                            Flight program that looks up flight times and prices with a classic 'n-curses' overlay for Java.
+                            The program starts out with a simple flight search, runs the program and asks QPX for the Data.
+                            QPX then displays the top ten data entries in sorted by price and repeats for the return flight.
+                            <br><br>
+
+                            Future Expansion would include method for the user to pay for the flight data within the app
+                            or a link that would direct the user to the website where the user could purchase the flight
+                            that they were looking for.<br><br>
+
+                            Languages Used: Java <br>
+                            API's used: Google QPX Express<br>
+                            Libraries used: Lanterna<br>
+                        </p>
+
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <a href="https://github.com/gemini88mill/Flights" class="hover-control para-formatting">
+                                    <img src="css/assets/icons/downloadimg.png" class="img-responsive hover-control">
+                                </a>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="para-formatting">Link to Github</p>
+                            </div>
+                            <div class="col-sm-8"></div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-sm-4">
+                        <h2 class="para-formatting">
+                            Non-UI projects
+                        </h2>
+                        <div class="row">
+                            <div class="col-sm-1">
+                                <a href="https://github.com/gemini88mill" class="hover-control para-formatting">
+                                    <img src="css/assets/icons/downloadimg.png" class="img-responsive hover-control">
+                                </a>
+                            </div>
+                            <div class="col-sm-3">
+                                <p class="para-formatting">Link to Github</p>
+                            </div>
+                            <div class="col-sm-8"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Portfolio-->
+
+
+        <!--Resume-->
+        <div class="panel-heading">
+            <h2 class="header-style panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">RESUME</a>
+            </h2>
+        </div>
+
+        <div id="collapseFour" class="collapse">
+            <div class="para-formatting panel-body">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="resume-background col-sm-8">
+                        <h2 class="text-center">
+                            Raphael Magalhaes Miller
+                        </h2>
+                        <h3 class="para-formatting-black text-center">
+                            10600 Bloomfield Dr. #1726<br>
+                            Orlando, Florida, 32825<br><br>
+                            (954) 993 2637<br>
+                            rmiller1988@knights.ucf.edu<br>
+                        </h3>
+
+                        <br><br><br>
+
+                        <h3 class="para-formatting-black">SUMMARY</h3>
+
+                        <p class="para-formatting-black">
+                            An outgoing, young, charismatic professional with over 7 years of Programming
+                            and Information Technology experience. Working in the Professional,
+                            Independent, and Collegiate worlds combining all environments to understand the
+                            needs of any project application.
+                        </p>
+
+                        <h3 class="para-formatting-black">EXPERIENCE</h3>
+                        <h4 class="para-formatting-black">
+                            Sales Associate, Remote Support Technician, Spring Mobile (Formerly Cellular World).
+                        </h4>
+                        <h5 class="para-formatting-black">Orlando, Florida 2014- </h5>
+                        <p class="para-formatting-black">
+                            Selling Advanced Telecommunications solutions to business and personal
+                            accounts for At&t. Offering a wide array of solutions from cellular devices and
+                            plans to home solutions involving home security and cable, fiber-optic service.
+                        </p>
+                        <h5 class="para-formatting-black">ACCOMPLISHMENTS</h5>
+                        <ul>
+                            <li>Lead in sales in store through the majority of my tenure at multiple
+                                locations and markets.</li>
+                            <li>Supplied IT and computer support within multiple stores during
+                                expansion of company and merger.</li>
+                            <li>Provided point of contact support for many business transactions and
+                                multiple stores and different markets.</li>
+                            <li>Created prototype point of sale systems independently while working for
+                                Cellular World.</li>
+                        </ul>
+
+                        <h4 class="para-formatting-black">Kitchen Manager, Chipotle Mexican Grill</h4>
+                        <h5 class="para-formatting-black"> Orlando, Florida 2012-2014</h5>
+                        <p class="para-formatting-black">
+                            Acquired Kitchen Skills, “Back of House” management and expertise in
+                            communicating with coworkers and customers alike. Managing an opening shift
+                            for a restaurant and handling food safety requirements dictated by government
+                            and internal regulations.
+                        </p>
+                        <h5 class="para-formatting-black">ACCOMPLISHMENTS</h5>
+                        <ul>
+                            <li>Provided Support and excellent reviews during monthly audits</li>
+                            <li>Trained for Kitchen Manager position</li>
+                            <li>Received positive remarks during performance reviews</li>
+                            <li>Learned moderate maintenance skills</li>
+                            <li>Ability to train and coach fellow employees and co-workers</li>
+                            <li>Experience in finding solutions to customer complaints</li>
+                            <li>Delegated Tasks and Responsibilities to employees in order to build a
+                                team to handle the daily business of the store</li>
+                        </ul>
+
+                        <h4 class="para-formatting-black">Sales Associate (PCHO), Best Buy</h4>
+                        <h5 class="para-formatting-black">Orlando, Florida 2011-2012</h5>
+                        <p class="para-formatting-black">
+                            Providing customer service and knowledgeable experience to local and
+                            international customers.
+                        </p>
+                        <h5 class="para-formatting-black">ACCOMPLISHMENTS</h5>
+                        <ul>
+                            <li>Used expertise in the Portuguese language to provide sales in
+                                computers to international clients.</li>
+                            <li>Worked closely with the geek squad technical support department to
+                                increase communication between the customers and the tech support
+                                department.</li>
+                            <li>Helped out with translation issues in all sections of the store.</li>
+                            <li>Gained knowledge in providing appropriate computer systems to fit
+                                customers needs</li>
+                            <li>Experience in handling sensitive customer information</li>
+                            <li>Training in all aspects of the store (Video games, Computers, Mobile
+                                Media Devices, etc.)</li>
+                        </ul>
+
+                        <h3 class="para-formatting-black">EDUCATION</h3>
+
+                        <h4 class="para-formatting-black">University of Central Florida</h4>
+                        <h5 class="para-formatting-black">Computer Science B.S. 2015 - 2018</h5>
+
+                        <p class="para-formatting-black">
+                            Currently pursuing a Bachelor’s in Science for Computer Science at the
+                            University of Central Florida. Covering topics from Data Structures to Artificial
+                            Intelligence. Notable courses include: Computer Science I and II, Systems
+                            Software, Computer Security, Database Systems, and Computer Logic and
+                            Organization.
+                        </p>
+
+                        <h4 class="para-formatting-black">Valencia College</h4>
+                        <h5 class="para-formatting-black">Computer Science Articulated Pre-Major 2009 - 2013</h5>
+
+                        <p class="para-formatting-black">
+                            Completed Articulated pre-major for the University of Central Florida. Overview of
+                            such topics including but not limited to, Java, C/C++ and programming related
+                            networking. Notable Courses Include: Java, Advanced Java, C programming and
+                            C++ Programming
+                        </p>
+
+
+                        <h3 class="para-formatting-black">SKILLS</h3>
+
+                        <ul class="para-formatting-black">
+                            <li>Proficiency in Java, C/C++, CSS, HTML, PHP, and JavaScript</li>
+                            <li>Proficiency in support build automation tools related to Java. C/C++
+                                such as Maven, Gradle, Composer, and Make.</li>
+                            <li>Proficiency with version control repository: Git and Github</li>
+                            <li>Proficiency in Web frameworks: Bootstrap, and working on becoming
+                                proficient in other JavaScript Frameworks like Angular, Node, React, JQuery, and Velocity</li>
+                            <li>Proficiency in terminal applications in the LInux, Mac, and Windows
+                                environment.</li>
+                            <li>Familiarity with assembly with MIPS and x86</li>
+                            <li>Proficiency in Database systems SQL, and mySQL</li>
+                            <li>Proficiency in Document markup languages YAML and LaTeX</li>
+                            <li>Proficiency in data format files such as JSON and XML.</li>
+                            <li>Familiarity with Android SDK.</li>
+                            <li>CompTIA A+ Certification (November 2014)</li>
+                            <li>Proficient in computer hardware and software troubleshooting.</li>
+                            <li>Customer service</li>
+                            <li>Bi-Lingual (English & Portuguese) learning Japanese</li>
+
+                        </ul>
+
+                        <h3 class="para-formatting-black">PROFESSIONAL REFERENCES</h3>
+
+                        <p class="para-formatting-black">References available upon request</p>
+
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <div class="button-padding">
+                            <a href="css/assets/resumefinal.pdf" class="btn btn-default" role="button">Resume Download</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+        </div>
+        <!--Resume-->
+
+
+        <!--Contact-->
+        <div class="panel-heading">
+            <h2 class="header-style panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">CONTACT</a>
+            </h2>
+        </div>
+
+        <div id="collapseFive" class="collapse">
+            <div class="para-formatting panel-body">
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-4">
+                        <img src="css/assets/profilepic.jpg" class="img-responsive img-rounded img-circle">
+                    </div>
+                    <div class="col-sm-4">
+                        <h1 class="para-formatting">
+                            Contact Me Here
+                        </h1>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <a href="#" class="hover-control">
+                                    <img src="css/assets/icons/iconmonstr-email-11-240.png" class="img-responsive hover-control">
+                                </a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="https://www.facebook.com/gemini88mill">
+                                    <img src="css/assets/icons/iconmonstr-facebook-4-240%20.png" class="img-responsive hover-control">
+                                </a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="https://github.com/gemini88mill">
+                                    <img src="css/assets/icons/iconmonstr-github-5-240.png" class="img-responsive hover-control">
+                                </a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="https://plus.google.com/114617386538347595062">
+                                    <img src="css/assets/icons/iconmonstr-google-plus-4-240.png" class="img-responsive hover-control">
+                                </a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="https://www.linkedin.com/in/raphael-miller-947a8a85/">
+                                    <img src="css/assets/icons/iconmonstr-linkedin-3-240.png" class="img-responsive hover-control">
+                                </a>
+                            </div>
+                            <div class="col-sm-2">
+                                <a href="https://twitter.com/gemini88mill">
+                                    <img src="css/assets/icons/iconmonstr-twitter-4-240.png" class="img-responsive hover-control">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+        </div>
+        <!--Contact-->
+
+
+    </div>
+
+</div>
+
+    <!--footer-->
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p class="para-formatting">Created By: Raphael Miller</p>
+    </footer>
+
+    <script type="text/javascript" src="js/hiderfunctions.js"></script>
+
+
+</body>
+</html>

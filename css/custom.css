@@ -1,0 +1,154 @@
+#top-banner {
+    background-color: #ff443a;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    padding: 150px;
+}
+
+#navbar-style {
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    border: hidden;
+}
+
+#myNavbar {
+    color: #ffffff;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #CF5D00 !important;
+    background-color: #fff !important;
+}
+
+
+
+/*Animations*/
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+    opacity: 0
+}
+
+.header-style {
+    font-family: 'Asap', sans-serif;
+    padding-left: 10%;
+    color: white;
+    font-size: 22px;
+}
+
+.banner {
+    color: #ffffff;
+    background-color: #CF5D00;
+}
+
+.para-formatting {
+    color: #ffffff;
+    font-family: 'Asap', sans-serif;
+}
+
+.img-bg {
+    background: url('../css/assets/tokyocontrastup.jpg') no-repeat center center fixed;
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.jumbotron {
+    background: inherit;
+    text-align: center;
+}
+
+.align {
+    padding: 200px;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+#accordion {
+    display: inherit;
+    background: inherit;
+}
+
+.panel-style {
+    background: #CF5D00;
+}
+
+.panel-default {
+    background: inherit;
+    border: none;
+    color: white;
+}
+
+.panel-group {
+    border: none;
+    background: inherit;
+}
+
+.panel {
+    border: none;
+    background: inherit;
+    text-decoration: none;
+}
+
+.heading-style {
+    background-color: #CF5D00;
+    color: white;
+    padding: 10px;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #CF5D00;
+    color: white;
+    text-decoration: none;
+
+}
+
+.panel-body-custom {
+    background: transparent;
+}
+
+body {
+    padding-top: 65px;
+}
+
+.panel > .panel-title:hover {
+    text-decoration: none;
+}
+
+.resume-background {
+    background-color: #d5d5d5;
+    color: #0f0f0f;
+}
+
+.para-formatting-black {
+    color: #0f0f0f;
+    font-family: 'Asap', sans-serif;
+}
+
+.button-padding {
+    padding: 10px;
+}
+
+.hover-control:hover {
+    padding-top: 5%;
+}

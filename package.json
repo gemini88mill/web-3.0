@@ -1,0 +1,15 @@
+{
+  "name": "mywebpage_npm",
+  "version": "1.0.0",
+  "description": "npm init for web 3.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raphael Miller",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
