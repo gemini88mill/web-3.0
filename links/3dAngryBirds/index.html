@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+    <meta charset="UTF-8">
+    <title>3dAngryBirds</title>
+
+    <script type="text/javascript" src="libs/three.min.js"></script>
+    <script type="text/javascript" src="libs/physi.js"></script>
+    <script type="text/javascript" src="libs/keyboard.js"></script>
+
+    <!--helpers js-->
+    <script type="text/javascript" src="js/points.js"></script>
+    <script type="text/javascript" src="js/objects.js"></script>
+    <script type="text/javascript" src="js/controls.js"></script>
+
+
+</head>
+<body>
+<div id="viewport"></div>
+
+<h1 class="title" id="score">Score:
+    <script type="text/javascript">
+    </script>
+</h1>
+<script src="js/3dAngryBirds.js"></script>
+<button onclick="hintMenu()">Hints:</button>
+<div class="title" id="hintMenu" style="display: none">
+    Controls:<br>
+    Move Cannon Pitch: W and S<br>
+    Move Cannon Yaw: A and D<br>
+    Fire: F<br>
+    Reload Cannon: L<br>
+</div>
+
+
+
+</body>
+</html>
