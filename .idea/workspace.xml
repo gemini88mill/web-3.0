@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b153a8d4-310d-420e-a010-179215d34e85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/web3.0.iml" afterPath="$PROJECT_DIR$/.idea/web3.0.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -249,7 +247,7 @@
       <workItem from="1506304404733" duration="2317000" />
       <workItem from="1506518086004" duration="572000" />
       <workItem from="1506724747066" duration="12000" />
-      <workItem from="1509027594756" duration="158000" />
+      <workItem from="1509027594756" duration="171000" />
     </task>
     <task id="LOCAL-00001" summary="fixed link error and lib error">
       <created>1506518564083</created>
@@ -258,11 +256,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506518564083</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="removed hellos">
+      <created>1509027762620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1509027762621</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99957000" />
+    <option name="totallyTimeSpent" value="99970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,7 +309,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed link error" />
     <MESSAGE value="fixed link error and lib error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed link error and lib error" />
+    <MESSAGE value="removed hellos" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed hellos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
